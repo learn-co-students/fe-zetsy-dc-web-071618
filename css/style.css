@@ -17,4 +17,48 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+#lede {
+	positon: absolute;
+	top: -20px;
+}
+
+#lede img {
+	border: 5px rgb(152 173 166) solid;
+}
+
+#about a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#about a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	color: rgb(111 127 122);
+	font-size: 5em;
+	font-family: "Baskerville", serif;
+}
+
+h2 {
+	color: rgb(111 127 122);
+	font-size: 2em;
+}
+
+#media img {
+	border: 5px rgb(204 204 204) solid;
+}
+
+#media img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+p {
+	color:#555;
+}
+
+footer > p {
+	text-align: right;
+	font-size:0.75em;
+}
