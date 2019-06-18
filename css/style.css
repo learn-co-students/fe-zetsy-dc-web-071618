@@ -7,14 +7,53 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
+#main-img {
+  border: 3px solid grey;
+}
+
+.link-img {
+  border: 2px solid rgb(208, 208, 208);
+  width:233px;
+}
+
+/*a{*/
+/*  width:25%;*/
+/*}*/
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	/*height: 100%;*/
+}
+
+h1 {
+  color: #9caba6;
+  font-size: 48px;
+  margin:0;
+  padding:10px;
+}
+
+.footer {
+  text-align: right;
+  font-size:12px;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2 {
+  color:grey;
+}
+
+
+img:hover {
+  border: 2px solid black;
+	transition: all 0.2s ease;
 }
 
 /* Write all remaining styles here */
